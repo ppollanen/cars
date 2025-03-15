@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  regnro: MyString
+  description: MyText
+  date: 2024-11-15
+  price: 9.99
+
+two:
+  regnro: MyString
+  description: MyText
+  date: 2024-11-15
+  price: 9.99

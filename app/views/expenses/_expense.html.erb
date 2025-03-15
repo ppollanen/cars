@@ -1,0 +1,27 @@
+<div id="<%= dom_id expense %>">
+  <p>
+    <strong>Regnro:</strong>
+    <%= expense.regnro %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= expense.title %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= expense.description %>
+  </p>
+
+  <p>
+    <strong>Date:</strong>
+    <%= expense.date %>
+  </p>
+
+  <p>
+    <strong>Price:</strong>
+    <%= number_to_currency(expense.price, :unit => "€", :separator => ",") %>
+  </p>
+
+</div>
