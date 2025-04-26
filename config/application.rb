@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module Cars
   class Application < Rails::Application
+    # Configure logging.
+    config.logger = Logger.new(STDOUT)
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
